@@ -5,7 +5,7 @@ import "./globals.css";
 const manrope = Manrope({ variable: "--font-body", subsets: ["latin"] });
 const condensed = Roboto_Condensed({ variable: "--font-display", subsets: ["latin"] });
 
-const title = "Fenis Díaz S.L. | Transportes y logística";
+const title = "Fenis Diaz S.L. | Transportes y logística";
 const description = "Soluciones de transporte por carretera y coordinación logística desde Córdoba.";
 
 export const metadata: Metadata = {
