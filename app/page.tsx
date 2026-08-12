@@ -22,9 +22,9 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="#inicio" aria-label="Fenis Díaz, inicio">
+        <a className="brand" href="#inicio" aria-label="Fenis Diaz, inicio">
           <span className="brand-mark">FD</span>
-          <span>Fenis Díaz<small>Transportes y logística</small></span>
+          <span>Fenis Diaz<small>Transportes y logística</small></span>
         </a>
         <nav aria-label="Navegación principal">
           <a href="#servicios">Servicios</a>
@@ -59,7 +59,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="trust-strip" aria-label="Valores de Fenis Díaz">
+      <section className="trust-strip" aria-label="Valores de Fenis Diaz">
         <p>Una logística que habla claro.</p>
         <div><span>Planificación</span><span>Seguimiento</span><span>Compromiso</span></div>
       </section>
@@ -90,7 +90,7 @@ export default function Home() {
         <div className="company-copy">
           <p className="eyebrow dark"><span /> Nuestra forma de trabajar</p>
           <h2>Cercanía para coordinar.<br />Experiencia para cumplir.</h2>
-          <p>En Fenis Díaz S.L. entendemos que detrás de cada carga hay compromisos, clientes y plazos. Por eso trabajamos con comunicación directa y atención personalizada en cada servicio.</p>
+          <p>En Fenis Diaz S.L. entendemos que detrás de cada carga hay compromisos, clientes y plazos. Por eso trabajamos con comunicación directa y atención personalizada en cada servicio.</p>
           <ul>
             <li><span>01</span> Atención directa y resolutiva</li>
             <li><span>02</span> Planificación adaptada a cada operación</li>
@@ -144,8 +144,8 @@ export default function Home() {
         </div>      </section>
 
       <footer>
-        <a className="brand footer-brand" href="#inicio"><span className="brand-mark">FD</span><span>Fenis Díaz<small>Transportes y logística</small></span></a>
-        <p>Fenis Díaz S.L. · Córdoba, España</p>
+        <a className="brand footer-brand" href="#inicio"><span className="brand-mark">FD</span><span>Fenis Diaz<small>Transportes y logística</small></span></a>
+        <p>Fenis Diaz S.L. · Córdoba, España</p>
         <a href="#inicio">Volver arriba ↑</a>
       </footer>
     </main>
