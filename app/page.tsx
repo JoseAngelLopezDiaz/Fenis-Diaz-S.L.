@@ -115,13 +115,33 @@ export default function Home() {
       <section className="contact" id="contacto">
         <p className="eyebrow dark"><span /> Hablemos de tu próximo envío</p>
         <div className="contact-grid">
-          <h2>¿Qué necesitas<br /><em>mover?</em></h2>
-          <div>
-            <p>Indícanos origen, destino, tipo de mercancía y fecha estimada. Te responderemos con una propuesta clara.</p>
-            <p className="contact-pending">Datos de teléfono y correo pendientes de confirmar.</p>
+          <div className="contact-intro">
+            <h2>Â¿QuÃ© necesitas<br /><em>mover?</em></h2>
+            <p>CuÃ©ntanos los detalles de tu envÃ­o y te responderemos con una propuesta clara.</p>
           </div>
-        </div>
-      </section>
+          <form className="contact-form" action="https://formsubmit.co/lopezdiazjoseangel884@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Nueva solicitud desde la web de Fenis Diaz" />
+            <input type="hidden" name="_next" value="https://joseangellopezdiaz.github.io/Fenis-Diaz-S.L./?enviado=1#contacto" />
+            <input type="text" name="_honey" className="form-honey" tabIndex={-1} autoComplete="off" aria-hidden="true" />
+            <div className="form-row">
+              <label>Nombre o empresa<input name="Nombre o empresa" type="text" autoComplete="name" required /></label>
+              <label>TelÃ©fono<input name="TelÃ©fono" type="tel" autoComplete="tel" required /></label>
+            </div>
+            <label>Correo electrÃ³nico<input name="Correo electrÃ³nico" type="email" autoComplete="email" required /></label>
+            <div className="form-row">
+              <label>Origen<input name="Origen" type="text" placeholder="Ciudad o direcciÃ³n" required /></label>
+              <label>Destino<input name="Destino" type="text" placeholder="Ciudad o direcciÃ³n" required /></label>
+            </div>
+            <div className="form-row">
+              <label>Tipo de mercancÃ­a<input name="Tipo de mercancÃ­a" type="text" required /></label>
+              <label>Fecha estimada<input name="Fecha estimada" type="date" /></label>
+            </div>
+            <label>ExplÃ­canos quÃ© necesitas<textarea name="Necesidad" rows={5} placeholder="Volumen, peso, condiciones especiales, frecuencia u otros detallesâ€¦" required /></label>
+            <label className="privacy-check"><input type="checkbox" name="Consentimiento" value="Aceptado" required /><span>Acepto que Fenis Diaz utilice estos datos para responder a mi solicitud.</span></label>
+            <button type="submit">Solicitar propuesta <span aria-hidden="true">â†—</span></button>
+            <p className="form-note">Los campos son necesarios para poder preparar la propuesta.</p>
+          </form>
+        </div>      </section>
 
       <footer>
         <a className="brand footer-brand" href="#inicio"><span className="brand-mark">FD</span><span>Fenis Díaz<small>Transportes y logística</small></span></a>
