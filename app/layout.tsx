@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://joseangellopezdiaz.github.io/Fenis-Diaz-S.L./"),
   title,
   description,
+  icons: { icon: '/fenis-diaz-fenix.png' },
   openGraph: { title, description, images: [{ url: "og.png", width: 1200, height: 630 }] },
   twitter: { card: "summary_large_image", title, description, images: ["og.png"] },
 };

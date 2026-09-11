@@ -23,8 +23,8 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="brand" href="#inicio" aria-label="Fenis Diaz, inicio">
-          <span className="brand-mark">FD</span>
-          <span>Fenis Diaz<small>Transportes y logística</small></span>
+          <img className="brand-mark" src="/fenis-diaz-fenix.png" alt="" width="64" height="64" />
+          <span>Fenis Diaz S.L.<small>Transportes y logística</small></span>
         </a>
         <nav aria-label="Navegación principal">
           <a href="#servicios">Servicios</a>
@@ -50,7 +50,7 @@ export default function Home() {
           <span className="route-label route-label-b">DESTINO</span>
           <span className="route-point route-point-a" />
           <span className="route-point route-point-b" />
-          <div className="route-line"><span className="route-truck">FD</span></div>
+          <div className="route-line"><span className="route-truck"><img src="/fenis-diaz-fenix.png" alt="" width="42" height="42" /></span></div>
           <div className="route-status"><span /> En ruta</div>
         </div>
         <div className="hero-foot">
@@ -85,7 +85,7 @@ export default function Home() {
       <section className="company" id="empresa">
         <div className="company-image" aria-hidden="true">
           <div className="road-lines"><span /><span /><span /></div>
-          <div className="company-stamp"><strong>FD</strong><small>CÓRDOBA</small></div>
+          <div className="company-stamp"><img src="/fenis-diaz-fenix.png" alt="" width="100" height="100" /><small>CÓRDOBA</small></div>
         </div>
         <div className="company-copy">
           <p className="eyebrow dark"><span /> Nuestra forma de trabajar</p>
@@ -144,7 +144,7 @@ export default function Home() {
         </div>      </section>
 
       <footer>
-        <a className="brand footer-brand" href="#inicio"><span className="brand-mark">FD</span><span>Fenis Diaz<small>Transportes y logística</small></span></a>
+        <a className="brand footer-brand" href="#inicio"><img className="brand-mark" src="/fenis-diaz-fenix.png" alt="" width="64" height="64" /><span>Fenis Diaz S.L.<small>Transportes y logística</small></span></a>
         <p>Fenis Diaz S.L. · Córdoba, España</p>
         <a href="#inicio">Volver arriba ↑</a>
       </footer>
